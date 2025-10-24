@@ -41,13 +41,14 @@ This project runs entirely in **Google Colab** or any Python 3 environment with 
 
 ## 🏁 How to Run
 1. Mount your Google Drive in Colab.
-2. Set your `BASE_DIR` path to your folder (`/content/drive/MyDrive/ds_<your_name>`).
+2. Set your base path: BASE_DIR = "/content/drive/MyDrive/ds_Ayman_Mundol"
 3. Run all cells in `notebook_1.ipynb` from top to bottom.
 4. Find generated files in:
    - `/csv_files/` → processed CSVs
    - `/outputs/` → charts and summary stats
    - `/ds_report.pdf` → final report
-
+Data Files
+Some of the large datasets are stored on Google Drive due to GitHub’s 25MB limit:
 - [cleaned_merged.csv]-https://drive.google.com/file/d/1SrIcTLnXVRilDCRl4lJstthDImX3qvfu/view?usp=sharing
 - [daily_features.csv]-https://drive.google.com/file/d/1uxPQXZdUhFipuB1IHfz1r9i-6kRnnIoa/view?usp=drive_link
 ## ✍️ Author
